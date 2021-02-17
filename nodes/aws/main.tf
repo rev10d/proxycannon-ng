@@ -1,6 +1,6 @@
 provider "aws" {
   shared_credentials_file = "~/.aws/credentials"
-  region = "us-east-2"
+  region = "us-east-1"
 }
 
 resource "aws_instance" "exit-node" {
